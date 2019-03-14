@@ -105,7 +105,7 @@ async function reduceOnTravelDuration(input, origin, reduction1) {
   const places = await Promise.all(placesPromises)
   let results = []
   for (let i = 0; i < places.length; i++) {
-    if (places[i].travelTime !== 0 && places[i].travelTime <= input.duration * 60) {
+    if (places[i].travelTime <= input.duration * 60) {
       results.push(places[i].zip)
     }
   }
