@@ -4,6 +4,10 @@
   "main": "index.js",
   "author": "Guillaume Duveau <guillaume.duveau@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guix77/ziparound"
+  },
   "dependencies": {
     "haversine": "^1.1.1",
     "prompt": "^1.0.0"
