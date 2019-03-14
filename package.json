@@ -9,7 +9,9 @@
     "url": "https://github.com/guix77/ziparound"
   },
   "dependencies": {
+    "dotenv": "^7.0.0",
     "haversine": "^1.1.1",
+    "node-fetch": "^2.3.0",
     "prompt": "^1.0.0"
   }
 }
